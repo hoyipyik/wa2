@@ -136,6 +136,16 @@ section.mv{
     top: 45%;
 }
 
+@media  screen and (max-width: 900px) {
+    #intromv{
+        font-size: 27px;
+        text-align: left;
+        position: relative;
+        margin: 10px 10px;
+    }
+    
+}
+
 section.goto-top{
     position: relative;
 }
