@@ -40,7 +40,7 @@ section.start-poster{
 nav{
     position: sticky;
     top: 60px;
-
+    z-index: 1;
 }
 nav ul{
     width: 100%;
