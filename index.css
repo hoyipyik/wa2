@@ -93,6 +93,14 @@ section figure{
     vertical-align: top;
 }
 
+@media  screen and (max-width: 1000px) {
+    section figure{
+        width: 60%;
+        align-items: center;
+        /* margin: 0 auto; */
+    }
+}
+
 section figure img{
     height: 250px;
     margin: 10px 5px;
