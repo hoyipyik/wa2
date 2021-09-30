@@ -94,10 +94,24 @@ section figure{
 }
 
 @media  screen and (max-width: 1000px) {
+    nav li a{
+        font-size: 20px;
+    }
+    nav li{
+        padding: 6px 2px;
+        margin: 6px 1px;
+    }
+
     section figure{
         width: 60%;
         align-items: center;
+        margin: 5px 25%;
         /* margin: 0 auto; */
+    }
+    section.characters figure{
+        width: 100%;
+        align-items: center;
+        margin: 0 0;
     }
 }
 
