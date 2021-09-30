@@ -9,15 +9,6 @@ header h3 a{
     color: black;
 }
 
-@media screen and (max-width: 1000px) {
-    nav li a{
-        font-size: 20px;
-    }
-    nav li{
-        padding: 6px 2px;
-        margin: 6px 1px;
-    }
-}
 
 header{
     max-width: 100%;
@@ -155,4 +146,15 @@ footer p{
 
 b{
     font-size: 1.1em;
+}
+
+
+@media screen and (max-width: 1000px) {
+    nav li a{
+        font-size: 20px;
+    }
+    nav li{
+        padding: 6px 2px;
+        margin: 6px 1px;
+    }
 }

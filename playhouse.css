@@ -144,6 +144,10 @@ section.mv{
         padding: 6px 2px;
         margin: 6px 1px;
     }
+
+    video{
+        width: 100%;
+    }
 }
 
 @media  screen and (max-width: 1100px) {
