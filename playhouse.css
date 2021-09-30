@@ -136,6 +136,16 @@ section.mv{
     top: 45%;
 }
 
+@media screen and (max-width: 1000px) {
+    nav li a{
+        font-size: 20px;
+    }
+    nav li{
+        padding: 6px 2px;
+        margin: 6px 1px;
+    }
+}
+
 @media  screen and (max-width: 1100px) {
     section.music .row figure{
         width: 100%;

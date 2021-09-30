@@ -94,6 +94,9 @@ section figure{
 }
 
 @media  screen and (max-width: 1000px) {
+    section.slogan{
+        font-size: 40px;
+    }
     nav li a{
         font-size: 20px;
     }

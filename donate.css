@@ -143,6 +143,16 @@ footer p{
     font-size: 14px;
 }
 
+@media screen and (max-width: 1000px) {
+    nav li a{
+        font-size: 20px;
+    }
+    nav li{
+        padding: 6px 2px;
+        margin: 6px 1px;
+    }
+}
+
 b{
     font-size: 1.1em;
 }
