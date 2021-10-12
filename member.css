@@ -142,6 +142,16 @@ input{
     border: rgba(132, 159, 190, 0.698) solid;
 }
 
+#colour-picker{
+    width: 10%;
+    height: 40px;
+    margin: 5px 5px;
+    padding: 2px 2px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+
 select{
     width: 20%;
     margin: 4px 5px;
