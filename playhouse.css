@@ -67,17 +67,22 @@ nav li a{
     font-size: 1.5em;
 }
 
+/* 目录模块 */
+/* nowrap可以保证一行的显示 */
 section.contents{
     margin: 130px 10% 50px;
     white-space: nowrap;
 }
 
+/* 每个小的目录 */
+/* 改成inline-block 
+ * 增加了边框阴影
+*/
 section.contents div{
     display: inline-block;
     width: 49%;
     margin: 20px 10px;
     padding: 50px 10px;
-
     /* font-weight: bold; */
     font-size: 40px;
     text-align: center;
@@ -86,6 +91,7 @@ section.contents div{
     box-shadow: 3px 3px 3px 2px rgba(132, 159, 190, 0.698);
 }
 
+/* 滑鼠指针上悬会向右上角略微移动 */
 section.contents div:hover{
     position: relative;
     top: -7px;
@@ -97,6 +103,7 @@ a{
     color: rgb(64, 80, 134);
 }
 
+/* 消除边框 */
 audio{
     outline: none;
     width: 100%;
@@ -114,10 +121,13 @@ h4{
     font-size: 40px;
 }
 
+/* 音乐的每一行 */
 section.music .row{
     margin: 10px 0;
 }
 
+/* 每个音乐的元素 */
+/* 每个元素限制最大的宽度 */
 section.music .row figure{
     width: 31.8%;
     display: inline-block;
@@ -142,6 +152,7 @@ section.mv{
     top: 45%;
 }
 
+/* 对小的荧幕进行适应性调整 */
 @media screen and (max-width: 1000px) {
     nav li a{
         font-size: 20px;
@@ -156,12 +167,14 @@ section.mv{
     }
 }
 
+/* 对小荧幕的music进行调整 */
 @media  screen and (max-width: 1100px) {
     section.music .row figure{
         width: 100%;
     }
 }
 
+/* 对影片进行小荧幕的调整适配 */
 @media screen and (max-width: 1500px) {
     #intromv{
         font-size: 27px;

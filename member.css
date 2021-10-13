@@ -93,6 +93,7 @@ b{
     }
 }
 
+/* 表单的设定 */
 form{
     z-index: 0;
     margin: 20px 8%;
@@ -109,21 +110,23 @@ h4{
     padding: 10px 0;
 }
 
+/* 对表格的设定 */
 table{
     margin: 30px 0;
     padding: 10px 0;
     width: 100%;
 }
+/* 对行的设定 */
 tr{
     height: 48px;
     margin: 20px 15px;
 }
-
+/* 对列的设定 */
 td{
     margin: 20px 10px;
     font-size: 26px;
 }
-
+/* 表头的设定 */
 thead{
     background-color: rgba(240, 248, 255, 0.746);
     margin: 30px 30px;
@@ -142,6 +145,7 @@ input{
     border: rgba(132, 159, 190, 0.698) solid;
 }
 
+/* 对颜色选取输入的设定 */
 #colour-picker{
     width: 10%;
     height: 40px;
@@ -152,6 +156,7 @@ input{
     background-color: white;
 }
 
+/* 对选择框的设定 */
 select{
     width: 20%;
     margin: 4px 5px;
@@ -160,7 +165,7 @@ select{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
+/* 选中边框变成点点 */
 textarea:focus{
     border: rgb(132, 159, 190) dotted;
     outline: none;
@@ -182,11 +187,13 @@ textarea{
     margin: 20px 0;
 }
 
+/* 选中之后边框变成点点 */
 input:focus{
     outline: none;
     border: rgb(132, 159, 190) dotted;
 }
 
+/* 对按钮设定 */
 button{
     margin: 20px 0;
     padding: 15px 7px;
@@ -198,7 +205,7 @@ button{
     border-color: rgba(240, 248, 255, 0.829);
     border-radius: 5px;
 }
-
+/* 滑鼠hover按钮变色 */
 button:hover{
     background-color: rgb(171, 193, 212);
     cursor: pointer;
