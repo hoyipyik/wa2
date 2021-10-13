@@ -199,6 +199,11 @@ button{
     border-radius: 5px;
 }
 
+button:hover{
+    background-color: rgb(171, 193, 212);
+    cursor: pointer;
+}
+
 footer{
     margin: 30px 35px;
 }

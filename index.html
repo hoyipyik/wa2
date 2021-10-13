@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- 设定字符集 -->
     <meta charset="utf-8">
+    <!-- 引入css -->
     <link rel="stylesheet" href="./index.css">
+    <!-- 标题 -->
     <title>WHITE ALBUM 2</title>
 </head>
 
 <body>
     <header>
+        <!-- 标题 同时是返回首页的链接 -->
         <h3><a href="./index.html">White Album 2</a></h3>
      </header>
-
+    <!-- 顶部的图片 -->
     <section class="start-poster">
+        <!-- 本地图片的链接 -->
         <img id="start" src="./img/wa2snow.jpg" alt="home-poster" width="100%">
     </section>
-
+    <!-- 导航栏 -->
     <nav>
         <ul>
             <li>
+                <!-- 对当前的页面 字体进行加粗的处理 -->
                 <a href="./index.html"><b>Home</b></a>
             </li>
             <li>
@@ -31,9 +37,11 @@
             </li>
         </ul>
     </nav>
-
+    <!-- 正文部分 -->
     <main>
+        <!-- article标签方便手机浏览器提取文字 -->
         <article>
+            <!-- 介绍模块 -->
             <section class="intro-paragraph">
                 <h4>Introduction</h4>
                 <p>
@@ -64,9 +72,10 @@
 
             </section> 
         </article>
-
+        <!-- 动漫的cg图 -->
         <section class="cg">
             <div class="cg-list">
+                <!-- 使用了figure标签 -->
                 <figure>
                     <img src="./img/setsuna.png" alt="ic-cg" width="100%">
                 </figure>
@@ -81,7 +90,7 @@
 
         </section>
 
-    
+        <!-- 人物介绍模块 -->
         <section class="characters">
             <h4>Characters Setting</h4>
             <figure>
@@ -136,42 +145,34 @@
             </figure>
         </section>
 
-        
-
-        <!-- <section class="goal">
-            <h4>Goals</h4>
-            <p>We gather here to show our love for White Album 2</p>
-            <p>
-                You can watch the video and listen to the music in our playhouse.
-                <br>
-                Also you can choose to donate or become a member to support us, which 
-                will keep the website working.
-            </p>
-        </section> -->
-
+        <!-- slogan模块 -->
         <section class="slogan">
             <h2>
                 "再びホワイトアルバムの季節です
             </h2>
         </section>
         
-
+        <!-- 邮件订阅 -->
         <section class="mail-subscribe">
             <h4>Subscribe</h4>
+            <!-- 使用了h5的特性的form -->
             <form>
+                <!-- input的type设定为了email -->
                 <input placeholder="Input your email and hit Enter" type="email">
             </form>
         </section>
-
-       
     </main>
 
+    <!-- 返回顶部按钮 -->
     <section class="goto-top">
+        <!-- 导向至id的链接 -->
         <a href="#">
+            <!-- 网站外链接 -->
             <img src="https://img.icons8.com/ios/50/000000/up-squared.png"/>
         </a>
     </section>
     
+    <!-- 网站页脚 -->
     <footer>
         <hr>
         <p>Copyright 2021 WA2 by 贺烨毅(2019210737)</p>

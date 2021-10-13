@@ -1,14 +1,16 @@
+/* 进行初始化 */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+/* h3的a标记 */
+/* 取消了链接下划线的效果 */
 header h3 a{
     text-decoration-line: none;
     color: black;
 }
-
+/* 顶部的标题 */
 header{
     max-width: 100%;
     width: 100%;
@@ -19,6 +21,8 @@ header{
     /* background-color: black; */
 }
 
+/* 对标题的h3进行设定 */
+/* 修改为了inline-block模式 并且增加了圆角 */
 header h3{
     margin: 12px 30px;
     padding: 5px 10px;
@@ -27,28 +31,32 @@ header h3{
     display: inline-block;
     
 }
-
+/* 对顶部的图片进行修饰 */
+/* 使用relative的position来确定位置 */
 section.start-poster{
     position: relative;
     top: 60px;
 }
-
+/* 控制图片的高度 */
 #start{
     height: 600px;
 }
-
+/* 对导航栏套用sticky的position */
+/* 提升虚拟的层级 */
 nav{
     position: sticky;
     top: 60px;
     z-index: 1;
 }
+/* 将导航的外部设定成nowrap可以让他进行换行草组 */
 nav ul{
     width: 100%;
     max-width: 100%;
     background-color: aliceblue;
     white-space: nowrap;
 }
-
+/* 对导航的内容的每个元素进行设定 */
+/* 使用了inline-block可以让他们都在一行上 */
 nav li{
     display: inline-block;
     width: 24%;
@@ -56,17 +64,17 @@ nav li{
     padding: 6px 5px;
     margin: 6px 4.5px;
 }
-
+/* 消除a的修饰 */
 nav li a{
     color: black;
     text-decoration-line: none;
     font-size: 28px;
 }
-
+/* 对非本页的网页 滑鼠hover时候, 进行缩放 */
 .nonhome:hover{
     font-size: 1.5em;
 }
-
+/* 对article模块的样式进行修饰 */
 article{
     margin: 30px 35px;
     padding: 20px 20px;
@@ -92,7 +100,7 @@ section figure{
     display: inline-block;
     vertical-align: top;
 }
-
+/* 对小屏幕的设备进行谁定 */
 @media  screen and (max-width: 1000px) {
     section.slogan{
         font-size: 40px;
@@ -117,7 +125,7 @@ section figure{
         margin: 0 0;
     }
 }
-
+/* 对figure的img进行设定 */
 section figure img{
     height: 250px;
     margin: 10px 5px;
@@ -128,7 +136,7 @@ section.characters{
     margin: 20px 35px;
     padding: 0 20px;
 }
-
+/* 滑鼠hover的时候, 让图片向上移动10px */
 .cg-list img:hover{
     position: relative;
     top: -10px;
@@ -144,7 +152,7 @@ section.slogan{
 section.mail-subscribe{
     margin: 35px 35px;
 }
-
+/* 对输入框进行修饰 */
 .mail-subscribe input{
     width: 70%;
     height: 50px;
@@ -155,6 +163,7 @@ section.mail-subscribe{
     font-size: 24px;
 }
 
+/* 选中之后, 输入框变成虚线 */
 .mail-subscribe input:focus{
     border: rgba(132, 159, 190, 0.698) dotted;
     outline: none;
@@ -176,7 +185,7 @@ section.goto-top{
     position: relative;
 }
 
-
+/* 将返回顶部的按钮设定成absolute的位置 */
 section.goto-top a{
     position: absolute;
     /* : 2000px; */

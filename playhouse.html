@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<!-- 顶部的内容和首页是一致的 -->
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./playhouse.css">
@@ -32,11 +33,14 @@
         </ul>
     </nav>
 
+    <!-- 目录部分 -->
+    <!-- 分别是音乐和影片 -->
     <section class="contents">
         <a href="#music">
             <div>
                 <img  alt="music" src="./img/music-icon.png">
-                <p id="music">Music</p>
+                <!-- 为音乐增加id -->
+                <p id="music">Music</p>  
             </div>
         </a>
         <a href="#mv">
@@ -50,15 +54,19 @@
 
     <!-- <section><div><br id="music"></div></section> -->
     
+    <!-- 主模块 -->
     <main >
-        
+        <!-- 音乐部分 -->
         <section  class="music">
             <h4 >Music</h4>
             <div class="row">
+                <!-- 完成的figure -->
                 <figure>
+                    <!-- 内容资讯标记 -->
                     <figcaption>
                         届かない恋
                     </figcaption>
+                    <!-- 音乐元素 可控制 -->
                     <audio controls src="./music/届かない恋.flac">Error</audio>
                 </figure>
 
@@ -127,6 +135,7 @@
             
         </section>
 
+        <!-- 影片模块 -->
         <section  class="mv">
             
             <h4>Video</h4>
