@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* font-weight: 500; */
+    font-family: Georgia;
 }
 /* h3的a标记 */
 /* 取消了链接下划线的效果 */
@@ -60,7 +62,7 @@ section.start-poster{
 /* 使用了inline-block可以让他们都在一行上 */
 .main-nav li{
     display: inline-block;
-    width: 24%;
+    width: 24%;font-size: 1.2em;
     text-align: center;
     padding: 6px 5px;
     margin: 6px 4.5px;
@@ -82,8 +84,15 @@ article{
 }
 
 h4{
-    font-size: 40px;
+    font-size: 50px;
+    text-align: center;
+    /* font-size: 1.2em; */
 }
+
+.intro-paragraph p{
+    font-style: italic;
+}
+
 
 p{
     margin: 20px 0;
@@ -101,6 +110,31 @@ section figure{
     display: inline-block;
     vertical-align: top;
 }
+
+.characters figure{
+    width: 100%;
+}
+
+.characters img{
+    position: absolute;
+    right: 4%;
+}
+
+.characters img.thin{
+    position: absolute;
+    right: 7%;   
+    margin-top: 1.5%;
+}
+
+.characters p{
+    width: 78%;
+    /* z-index: 20; */
+}
+
+.characters #middle{
+    margin-top: 4%;
+}
+
 /* 对小屏幕的设备进行谁定 */
 @media  screen and (max-width: 1000px) {
     section.slogan{
@@ -131,6 +165,10 @@ section figure img{
     height: 250px;
     margin: 10px 5px;
     padding: 10px 5px;
+}
+
+.characters p{
+    font-style: italic;
 }
 
 section.characters{

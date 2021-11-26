@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="./member.css">
     <title>W.A.2 Member</title>
+    <script src="member.js" type="text/javascript"></script>
+    <script src="jq.js"></script>
 </head>
 
 <body>
@@ -34,7 +36,7 @@
 
     <!-- 表单 -->
 
-    <form>
+    <form method="post" action="">
         <h4>Become Our Member</h4>
         <table>
             <!-- 表头 -->
@@ -56,7 +58,7 @@
                 <tr>
                     <td><label for="username">User Name</label></td>
                     <td>
-                        <input id="username" type="text">
+                        <input id="username" type="text"  >
                     </td>
                 </tr>
 
@@ -80,12 +82,12 @@
                 </tr>
                 <tr>
                     <td><label for="mail">Mail Address</label></td>
-                    <td><input id="mail" type="email"></td>
+                    <td><input id="mail" type="email" ></td>
                 </tr>
                 <tr class="textarea">
                     <td ><label for="introduce">Introduction</label></td>
                     <td>
-                        <textarea id="introduce" value:"" placeholder="Write Something About You">
+                        <textarea  id="introduce" value:"" placeholder="Write Something About You">
                             
                         </textarea>
                     </td>
@@ -93,7 +95,7 @@
             </tbody>
         </table>
         <!-- 提交按钮 -->
-        <button onclick="">Submit</button>
+        <input id='submit-button'  type="submit" name="Submit" value="Submit" onclick="sendRequest()">
     </form>
 
     <footer>
