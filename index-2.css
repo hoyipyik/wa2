@@ -129,6 +129,7 @@ section figure{
 
 .characters p{
     width: 78%;
+    font-size: 2em;
     /* z-index: 20; */
 }
 
@@ -233,11 +234,11 @@ section.goto-top a{
     right: 3%;
     margin: 20px 35px;
 }
-
+/* 第二主题对提交按钮颜色的改变 */
 #submit-button{
     margin: 20px 0;
     padding: 15px 7px;
-    background-color: aliceblue;
+    background-color: rgb(187, 220, 248);
     width: 10%;
     position: relative;
     bottom: 2px;
@@ -280,7 +281,7 @@ section.goto-top a{
     text-decoration-line: none;
     font-size: 28px;
 }
-
+/* 主题更换按钮的样式设定 */
 #theme-changer{
     z-index: 10;
     position: absolute;
